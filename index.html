@@ -5,6 +5,16 @@
         <title>HTML Fun</title>
     </head>
     <body>
+        <audio controls id="music">
+            <source src="Assets/back.mp3" type="audio">
+                Your browser cannot play audio
+        </audio>
+        
+        <button onclick="play()" type="button"> Play</button>
+        <button onclick="pause()" type="button">Pause</button>
+        
+        <script src="Scripts/audio_player.js"></script>
+
         <div class="nav-bar">
             <nav>
                 <ul class="navigator">
