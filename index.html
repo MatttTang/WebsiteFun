@@ -6,14 +6,17 @@
     </head>
     <body>
         <audio controls id="music">
-            <source src="Assets/back.mp3" type="audio">
+            <source src="Assets/back.mp3">
                 Your browser cannot play audio
         </audio>
         
         <button onclick="play()" type="button"> Play</button>
         <button onclick="pause()" type="button">Pause</button>
-        
-        <script src="Scripts/audio_player.js"></script>
+
+        <script>
+            var myMusic = document.getElementById("music");
+            myMusic.play();
+        </script>
 
         <div class="nav-bar">
             <nav>
