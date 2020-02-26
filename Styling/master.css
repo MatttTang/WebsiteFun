@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+.navigator li{
+    display: inline;
+}
+.navigator a{
+    text-decoration: none;
+}
+.nav-bar{
+    text-align: center;
+}
