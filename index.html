@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" type="text/css" href="Styling/master.css">
-    <head>
-        <title>HTML Fun</title>
+    <link href="https://fonts.googleapis.com/css?family=Caladea|Roboto+Slab|Spartan&display=swap" rel="stylesheet">        <title>HTML Fun</title>
         <audio id="music">
             <source src="Assets/back.mp3">
                 Your browser cannot play audio
         </audio>
+        <button onclick="togglePlay()" type="button"><img src="Assets/volume.jpg" id="sound_pic"></button>
     </head>
     <body>
         <script src="Scripts/gifslides.js"></script>
             <img id="changer" src="Assets/giphy.gif">
             
-        <button onclick="togglePlay()" type="button"><img src="Assets/volume.jpg" id="sound_pic"></button>
         
         <script src="Scripts/audio_player.js"></script>
 
@@ -26,8 +25,14 @@
             </nav>
         </div>
 
-        <div class="sam">
-            <img id="samsora" src="Assets/giphy.gif">
-        </div>
+        <section id="home-page">
+            <div class="container-1">
+                <h1 id="intro">About Me</h1>
+                <p id="bio">
+                    My name is Matthew Tang, and I am an aspiring software engineer.
+                </p>
+            </div>
+        </section>
+
     </body>
 </html>

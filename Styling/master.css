@@ -5,17 +5,22 @@ body{
 }
 .navigator li{
     display: inline;
-    padding: 20px;
-    background-color: black;
+    padding-top: 69px;
+    padding-bottom: 51px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 .navigator a{
     text-decoration: none;
+    font-size: 300%;
+    font-family: 'Spartan';
+    color: white;
 }
 .nav-bar{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: darkgreen;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
 }
 button{
     padding: 1% 1%;
@@ -24,13 +29,27 @@ button{
     text-decoration: none;
     border-radius: 50%;
     position: fixed;
-    top: 2%;
-    left: 93%;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    left: 1800px;
 }
 #changer{
     width: 100%;
     height: 350px;
 }
 #sound_pic{
-    width: 75%;
+    height: 45px;
+    width: 45px;
+}
+#intro{
+    text-align: center;
+    font-size: 200%;
+    font-family: Roboto Slab;
+}
+#home-page{
+    padding-top: 100px;
+}
+#bio{
+    font-family: Caladea;
 }
