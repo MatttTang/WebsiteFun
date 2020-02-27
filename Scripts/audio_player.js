@@ -1,10 +1,12 @@
 var myMusic = document.getElementById("music");
-console.log(myMusic);
-function play(){
-    console.log("test");
-    myMusic.play();
-}
-
-function pause(){
-    myMusic.pause();
+var musicPlaying = false;
+myMusic.loop = true;
+function togglePlay(){
+    if (musicPlaying){
+        myMusic.play();
+    }
+    else{
+        myMusic.pause();
+    }
+    musicPlaying = !musicPlaying;
 }
