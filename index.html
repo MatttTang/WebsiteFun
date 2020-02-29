@@ -1,34 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" type="text/css" href="Styling/master.css">
     <head>
-        <title>HTML Fun</title>
-        <audio id="music">
+        <script src="Scripts/jquery-3.4.1.js"></script>
+        <script src="Scripts/newscript.js"></script>
+        <link rel="stylesheet" type="text/css" href="Styling/master.css">
+        <link rel="stylesheet" type="text/css" href="Styling/heading.css">
+        <link rel="stylesheet" type="text/css" href="Styling/bio.css">
+        <link href="https://fonts.googleapis.com/css?family=Caladea|Roboto+Slab|Spartan&display=swap" rel="stylesheet">        <title>HTML Fun</title>
+            <audio id="music" pause="true" loop>
+                <source src="Assets/back.mp3">
+                    Your browser cannot play audio
+            </audio>
+        <button type="button"><img src="Assets/volume.jpg" id="sound_pic"></button>
+    </head>
+    <body>
+        <audio id="music" pause="true" loop>
             <source src="Assets/back.mp3">
                 Your browser cannot play audio
         </audio>
-    </head>
-    <body>
-        <script src="Scripts/gifslides.js"></script>
-            <img id="changer" src="Assets/giphy.gif">
-            
-        <button onclick="togglePlay()" type="button"><img src="Assets/volume.jpg" id="sound_pic"></button>
-        
-        <script src="Scripts/audio_player.js"></script>
 
-        <div class="nav-bar">
+        <div class="heading">
+            <video id="tutorial" loop muted autoplay>
+                <source src="Assets/final.mp4">
+            </video>
+        </div>
+        <!--<script src="Scripts/slides.js"></script> -->
+            <!--<img id="changer" src="Assets/fox.gif"> -->
+        
+        <script src="Scripts/hover.js"></script>
+        
+        <div id="nav-bar">
             <nav>
                 <ul class="navigator">
-                    <li><a href="https://spu.edu/" target="_blank">Home</a></li>
-                    <li><a href="https://spu.edu/" target="_blank">Contact</a></li>
-                    <li><a href="https://spu.edu/" target="_blank">Information</a></li>
-                    <li><a href="https://spu.edu/" target="_blank"></li>
+                    <li><a class="linkage" href="https://spu.edu/" target="_blank">Home</a></li>
+                    <li><a class="linkage" href="https://spu.edu/" target="_blank">Contact</a></li>
+                    <li><a class="linkage" href="https://spu.edu/" target="_blank">Information</a></li>
                 </ul>
             </nav>
         </div>
 
-        <div class="sam">
-            <img id="samsora" src="Assets/giphy.gif">
-        </div>
+        <script src="Scripts/sticky.js"></script>
+
+
+        <section id="home-page">
+            <div class="container-1">
+                <h1 id="intro">About Me</h1>
+                <img id="me" src="Assets/me.jpg">
+                <p class="bio">
+                    My name is Matthew Tang, and I am an aspiring software engineer.
+                    I currently study Computer Science at Seattle Pacific University, and will be graudating in the spring of 2021.
+                    My primary goal in pursuing computer science is to use technology enrich the lives of the people around me, whether they are family, friend or stranger.
+                </p>
+
+                <p class="bio">
+                    I grew up in Honolulu, Hawaii, but moved later to gain access to a better education. 
+                    Going through an accelerated curriculum through middle school and high school, I forged a work ethic and dedication that propelled me forward,
+                    which led to me graduating two years earlier than my peers.
+                    Although I may lack the experience of my older peers, I am willing to make up for it through hard work and effort.
+                </p>
+
+                <p class="bio">
+                    Much of my work has been in C++, which I can confidently say is my strongest language.
+                    I am trying to branch out and learn new technologies, and I do so through independent projects.
+                    I have worked with:
+                </p>
+
+                <p id="techs">
+                     C# in the context of the Unity Game Engine
+                    <br>
+                     React js and node js working on projects out of curiosity
+                    <br>
+                     Java Script, J Query, and HTML, while working on a few projects, including this website
+                    <br>
+                     some Java thorugh my University's Curriculum
+                </p>
+
+                <p class="bio">
+                    Despite this, I am not all work. I can enjoy myself by watching "The Office" and "Parks and Rec".
+                    I also play a few video games in my spare time with friends. In the future, a goal of mine is to 
+                    independently create my own game. Some of the games I play often are:
+                </p>
+
+                <div id="logos">
+                    <a target="_blank" href="https://www.ubisoft.com/en-us/game/rainbow-six/siege/">
+                        <img id="r6" src="Assets/r6.jpg">
+                    </a>
+
+                    <a target="_blank" href="https://na.leagueoflegends.com/en-us/">
+                        <img id="lol" src="Assets/LoL.jpg">
+                    </a>
+
+                    <a target="_blank" href="https://www.smashbros.com/en_US/">
+                        <img id="ssbu" src="Assets/smash.jpg">
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </body>
 </html>
