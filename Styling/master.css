@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0;
     border: 0;
 }
@@ -44,7 +44,7 @@ button{
 }
 #intro{
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
     font-family: Roboto Slab;
 }
 #home-page{

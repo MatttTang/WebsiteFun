@@ -1,0 +1,37 @@
+#me{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 20%;
+}
+.bio{
+    font-size: 150%;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 50%;
+}
+#techs{
+    margin: auto;
+    font-size: 125%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#r6{
+    margin: auto;
+    width: 15%;
+}
+#lol{
+    margin: auto;
+    width: 15%;
+}
+#ssbu{
+    margin: auto;
+    width: 15%;
+}
+#logos{
+    text-align: center;
+    padding-bottom: 100px;
+}
