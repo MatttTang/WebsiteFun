@@ -3,32 +3,32 @@
     <link rel="stylesheet" type="text/css" href="Styling/master.css">
     <head>
         <title>HTML Fun</title>
-    </head>
-    <body>
-        <audio controls id="music">
+        <audio id="music">
             <source src="Assets/back.mp3">
                 Your browser cannot play audio
         </audio>
+    </head>
+    <body>
+        <script src="Scripts/gifslides.js"></script>
+            <img id="changer" src="Assets/giphy.gif">
+            
+        <button onclick="togglePlay()" type="button"><img src="Assets/volume.jpg" id="sound_pic"></button>
         
-        <button onclick="play()" type="button"> Play</button>
-        <button onclick="pause()" type="button">Pause</button>
-
-        <script>
-            var myMusic = document.getElementById("music");
-            myMusic.play();
-        </script>
+        <script src="Scripts/audio_player.js"></script>
 
         <div class="nav-bar">
             <nav>
                 <ul class="navigator">
                     <li><a href="https://spu.edu/" target="_blank">Home</a></li>
                     <li><a href="https://spu.edu/" target="_blank">Contact</a></li>
+                    <li><a href="https://spu.edu/" target="_blank">Information</a></li>
+                    <li><a href="https://spu.edu/" target="_blank"></li>
                 </ul>
             </nav>
         </div>
 
         <div class="sam">
-            <img src="Assets/giphy.gif">
+            <img id="samsora" src="Assets/giphy.gif">
         </div>
     </body>
 </html>
